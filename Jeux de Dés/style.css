@@ -1,16 +1,21 @@
+#game {
+  text-align: center;
+  margin-top: 50px;
+}
+
 #diceContainer {
-    display: flex;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
   .dice {
     width: 100px;
     height: 100px;
-    background-color: #3498db; /* Couleur bleue */
+    background-color: #3498db; 
     color: white;
     font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px;
-    border-radius: 10px; /* Pour rendre le dé carré */
-  }
+    border-radius: 10px; 
