@@ -1,0 +1,16 @@
+#diceContainer {
+    display: flex;
+  }
+  
+  .dice {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db; /* Couleur bleue */
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px; /* Pour rendre le dé carré */
+  }
